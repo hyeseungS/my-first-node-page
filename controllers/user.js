@@ -4,8 +4,8 @@ var express = require('express')
 	, NaverStrategy = require('passport-naver').Strategy;
 
 module.exports = function (app) {
-	var client_id = '7XR1Djz4qN4cBJhwn3Dw';
-	var client_secret = 'DfnVmrrP0A';
+	var client_id = '';
+	var client_secret = '';
 	var callback_url = 'https://first-node-page-hyehyes.herokuapp.com/user/naver/callback';
 
 	passport.serializeUser(function (user, done) {
